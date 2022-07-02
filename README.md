@@ -2,6 +2,11 @@
 
 ## General To-Know
 
+```sh
+winter="The winter is sparkling and frozen!"
+echo $winter # The winter is sparkling and frozen!
+```
+
 ### Code not working?
 - [Address already in use](#address-already-in-use)
 - [React Random Things I’ve Gotten Weird](#random-things-ive-gotten-weird)
