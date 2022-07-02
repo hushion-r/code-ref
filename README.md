@@ -8,7 +8,8 @@ When making new accounts, do email+etc@compozelabs.com, and it will register as 
 major.minor.patch
 
 ### Code not working?
--
+- [Address already in use](#address-already-in-use)
+- React Random Things I’ve Gotten Weird
 
 
 ## CLI
