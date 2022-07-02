@@ -1,8 +1,17 @@
 # Code Reference
 
-## CLI
+## General To-Know
+### Workarounds
+When making new accounts, do email+etc@compozelabs.com, and it will register as diff email but send to main email
+
+### Package
+major.minor.patch
 
 ### Code not working?
+-
+
+
+## CLI
 
 #### Address already in use
 ```shell
@@ -168,9 +177,3 @@ INSERT INTO [master].[dbo].[user_entity] ([first_name], [last_name]) VALUES ('Ra
 8. Application logs
 9. Platform logs
 
-## General To-Know
-### Workarounds
-When making new accounts, do email+etc@compozelabs.com, and it will register as diff email but send to main email
-
-### Package
-major.minor.patch
