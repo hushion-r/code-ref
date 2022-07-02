@@ -1,16 +1,16 @@
 # Code Reference
 
 ## General To-Know
-### Workarounds
-When making new accounts, do email+etc@compozelabs.com, and it will register as diff email but send to main email
-
-### Package
-major.minor.patch
 
 ### Code not working?
 - [Address already in use](#address-already-in-use)
 - [React Random Things I’ve Gotten Weird](#random-things-ive-gotten-weird)
 
+### Workarounds
+When making new accounts, do email+etc@compozelabs.com, and it will register as diff email but send to main email
+
+### Package
+major.minor.patch
 
 ## CLI
 
@@ -41,6 +41,7 @@ git remote prune origin
 ```
 
 ### React
+
 #### App
 ```bash
 npm run clean-start
@@ -86,10 +87,12 @@ docker build . -t fca:local
 - `await`
 
 ### Code Tidbits
+
 #### Console.log()
 ```js
 console.log('\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n');
 ```
+
 #### Sort alphabetically
 ```js
 .sort((a, b) => a.name.localeCompare(b.name))
@@ -156,6 +159,7 @@ INSERT INTO [master].[dbo].[user_entity] ([first_name], [last_name]) VALUES ('Ra
 ```
 
 ## Deploy
+
 ### Deploy to TestFlight
 1. Check iOS on dev server
 2. App Store Connect, check for version + build
