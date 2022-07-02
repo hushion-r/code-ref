@@ -2,11 +2,6 @@
 
 ## General To-Know
 
-```sh
-winter="The winter is sparkling and frozen!"
-echo $winter # The winter is sparkling and frozen!
-```
-
 ### Code not working?
 - [Address already in use](#address-already-in-use)
 - [React Random Things I’ve Gotten Weird](#random-things-ive-gotten-weird)
@@ -22,26 +17,43 @@ major.minor.patch
 #### Address already in use
 ```sh
 lsof -i tcp:4000
+```
+```sh
 kill -9
 ```
 
 ### Git
 
 #### Rebase
-```bash
+```sh
 git pull -r
 ```
 
 #### Branch
-```bash
-git branch
+```sh
+git branch [[branch name]]
+```
+```sh
 git pull
+```
+```sh
 git stash
-git checkout [[branch name]]
+```
+```sh
+git switch [[branch name]]
+```
+```sh
 git merge master
+```
 
+Cleanup
+```sh
 git fetch —prune
+```
+```sh
 git branch -a
+```
+```sh
 git remote prune origin
 ```
 
@@ -54,13 +66,14 @@ npm run [[android, ios]]
 ```
 
 #### Installing packages
-You can install a particular version of the library by running 
+You can install a particular version of the library by running `npm i <library-name>@<version-number>`
 ```bash
-npm install <library-name>@<version-number>
-```
-```bash
+?
 npm i … prop-types
-npm i --save-dev @types/react-sortable-tree
+```
+Import types `@types/packageName`
+```sh
+npm i --save-dev @types/
 ```
 
 ### Storybook
@@ -72,18 +85,16 @@ npm run storyshots
 ```
 
 ### Docker
+i.e. `docker build . -t fca:local`
 ```bash
 docker build . -t name:tag
-```
-```bash
-docker build . -t fca:local
 ```
 
 ## React Code
 
 ### Random Things I’ve Gotten Weird
 - Must have `display: flex` to properly use all flex properties
-- Must have `{...register}` as last item in <Input />
+- Must have `{...register}` as last item in `<Input />`
 - `let listToSort = [...immutableList];`
 - Must have redux function in dispatch
 - Don’t put dispatch in render
@@ -150,6 +161,10 @@ const onSubmit = async (data: xParams): Promise<void> => {}
  
 const X_NAME_KEY = 'xName';
 ```
+
+### Redux
+useAppDispatch
+useAppSelector
 
 ## SQL
 ```sql
