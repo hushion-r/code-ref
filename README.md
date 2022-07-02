@@ -9,7 +9,7 @@ major.minor.patch
 
 ### Code not working?
 - [Address already in use](#address-already-in-use)
-- React Random Things I’ve Gotten Weird
+- [React Random Things I’ve Gotten Weird](#random-things-ive-gotten-weird)
 
 
 ## CLI
@@ -85,17 +85,17 @@ docker build . -t fca:local
 - “varchar” vs “int”
 - `await`
 
-## Code Tidbits
-### Console.log()
+### Code Tidbits
+#### Console.log()
 ```js
 console.log('\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n');
 ```
-### Sort alphabetically
+#### Sort alphabetically
 ```js
 .sort((a, b) => a.name.localeCompare(b.name))
 ```
 
-## Hooks
+### Hooks
 Must always be used in root level of functional component
 
 ```tsx
@@ -105,7 +105,7 @@ export const Component = ( { var }: ComponentProps ): JSX.Element => { return (<
 export const Component = (): JSX.Element => { return (<></>) }
 ```
 
-### useState
+#### useState
 ```tsx
 import { useState } from 'react';
 ```
@@ -114,7 +114,7 @@ import { useState } from 'react';
 const [, set] = useState<>();
 ```
 
-### useEffect
+#### useEffect
 ```tsx
 import { useEffect } from 'react';
 ```
@@ -123,7 +123,7 @@ import { useEffect } from 'react';
 useEffect(() => {}, []);
 ```
 
-### React Hook Forms
+#### React Hook Forms
 ```tsx
 interface xParams {
  x: type;
