@@ -172,7 +172,7 @@ INSERT INTO [master].[dbo].[user_entity] ([first_name], [last_name]) VALUES ('Ra
 2. Scripts > deploy.sh
 3. Uncomment `az acr build --registry mysiteiqportal --image portalimage .`  
 4. ```bash npm run deploy dev ```
-5. https://portal.azure.com/#blade/WebsitesExtension/SCIFrameBlade/id/%2Fsubscriptions%2F02f8b795-35b1-4e26-9b1f-8b8cbb28f1f1%2FresourceGroups%2FRG-CUS%2Providers%2FMicrosoft.Web%2Fsites%2Fdev-mysiteiq/source/OverviewBlade
+5. Go to Azure Portal
 6. Diagnose and Solve Problems
 7. Availability & Performance
 8. Application logs
