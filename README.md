@@ -15,7 +15,7 @@ major.minor.patch
 ## CLI
 
 #### Address already in use
-```shell
+```sh
 lsof -i tcp:4000
 kill -9
 ```
