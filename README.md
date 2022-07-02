@@ -10,10 +10,6 @@ lsof -i tcp:4000
 kill -9
 ```
 
-```js
-console.log('hello');
-```
-
 ### Git
 
 #### Rebase
@@ -70,14 +66,14 @@ docker build . -t fca:local
 ## React Code
 
 ### Random Things I’ve Gotten Weird
-Must have `display: flex` to properly use all flex properties
-Must have `{...register}` as last item in <Input />
-`let listToSort = [...immutableList];`
-Must have redux function in dispatch
-Don’t put dispatch in render
-Make sure backend imports are correct
-“varchar” vs “int”
-`await`
+- Must have `display: flex` to properly use all flex properties
+- Must have `{...register}` as last item in <Input />
+- `let listToSort = [...immutableList];`
+- Must have redux function in dispatch
+- Don’t put dispatch in render
+- Make sure backend imports are correct
+- “varchar” vs “int”
+- `await`
 
 ## Code Tidbits
 ### Console.log()
@@ -162,15 +158,11 @@ INSERT INTO [master].[dbo].[user_entity] ([first_name], [last_name]) VALUES ('Ra
 9. App Store Connect, click No
 
 ### Azure
-1. ```bash
-npm run build dev/production
-```
+1. ```bash npm run build dev/production ```
 2. Scripts > deploy.sh
 3. Uncomment `az acr build --registry mysiteiqportal --image portalimage .`  
-4. ```bash
-npm run deploy dev
-```
-5. https://portal.azure.com/#blade/WebsitesExtension/SCIFrameBlade/id/%2Fsubscriptions%2F02f8b795-35b1-4e26-9b1f-8b8cbb28f1f1%2FresourceGroups%2FRG-CUS%2 Providers%2FMicrosoft.Web%2Fsites%2Fdev-mysiteiq/source/OverviewBlade
+4. ```bash npm run deploy dev ```
+5. https://portal.azure.com/#blade/WebsitesExtension/SCIFrameBlade/id/%2Fsubscriptions%2F02f8b795-35b1-4e26-9b1f-8b8cbb28f1f1%2FresourceGroups%2FRG-CUS%2Providers%2FMicrosoft.Web%2Fsites%2Fdev-mysiteiq/source/OverviewBlade
 6. Diagnose and Solve Problems
 7. Availability & Performance
 8. Application logs
