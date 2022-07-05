@@ -114,6 +114,16 @@ console.log('\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n');
 .sort((a, b) => a.name.localeCompare(b.name))
 ```
 
+#### Filter out `isDeleted`
+```js
+.sort((a, b) => a.name.localeCompare(b.name))
+```
+
+#### Map
+```js
+.map(() => return {})
+```
+
 ### Hooks
 Must always be used in root level of functional component
 
