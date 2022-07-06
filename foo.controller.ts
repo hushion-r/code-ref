@@ -1,4 +1,4 @@
-### Must replace 'foo', 'Foo', 'fid'
+### Must replace 'Foo', 'foo', 'fid'
 
 import express = require('express');
 import { Body, Controller, Delete, Get, Path, Put, Route } from 'tsoa';
