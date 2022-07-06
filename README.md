@@ -202,10 +202,10 @@ INSERT INTO [master].[dbo].[user_entity] ([first_name], [last_name]) VALUES ('Ra
 9. App Store Connect, click No
 
 ### Azure
-1. ```bash npm run build dev/production ```
+1. ``` npm run build dev/production ```
 2. Scripts > deploy.sh
 3. Uncomment `az acr build --registry mysiteiqportal --image portalimage .`  
-4. ```bash npm run deploy dev ```
+4. ``` npm run deploy dev ```
 5. Go to Azure Portal
 6. Diagnose and Solve Problems
 7. Availability & Performance
