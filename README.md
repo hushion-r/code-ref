@@ -176,6 +176,20 @@ const X_NAME_KEY = 'xName';
 useAppDispatch
 useAppSelector
 
+## Backend
+
+### Code Tidbits
+
+#### Relations
+```ts
+relations: [''],
+```
+
+#### Where
+```ts
+where: { id: Id, isDeleted: true }
+```
+
 ## SQL
 ```sql
 UPDATE [master].[dbo].[user_entity] SET is_admin = 1 WHERE email = 'rae+admin@compozelabs.com'
