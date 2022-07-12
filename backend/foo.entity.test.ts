@@ -1,5 +1,5 @@
-### INCOMPLETE. Needs OneToOne qux testing
-### Must replace 'Foo', 'foo', 'Bar', 'bar'
+//  INCOMPLETE. Needs OneToOne qux testing
+//  Must replace 'Foo', 'foo', 'Bar', 'bar'
 
 import { FooEntity } from './foo.entity';
 import { BarEntity } from './bar.entity';

@@ -1,4 +1,4 @@
-### Must replace 'Foo', 'foo', 'fid', 'Bar', 'bar', 'bid'
+//  Must replace 'Foo', 'foo', 'fid', 'Bar', 'bar', 'bid'
 
 import { FooEntity } from '../model/foo.entity';
 import { injectable } from 'tsyringe';

@@ -1,8 +1,15 @@
-### Must replace 'Foo', 'foo', ManyToOne 'Bar', 'bar', OneToOne 'Qux', 'qux', OneToMany 'Corge', 'corge'
+//  Must replace 'Foo', 'foo', ManyToOne 'Bar', 'bar', OneToOne 'Qux', 'qux', OneToMany 'Corge', 'corge'
 
-import { Column, Entity, JoinColumn, ManyToOne, OneToOne, OneToMany } from 'typeorm';
+import {
+  Column,
+  Entity,
+  JoinColumn,
+  ManyToOne,
+  OneToOne,
+  OneToMany,
+} from 'typeorm';
 import { Model } from './base.model';
-import { CreateFoo, } from '../controllers/foo/foo.interface';
+import { CreateFoo } from '../controllers/foo/foo.interface';
 import { BarEntity } from './bar.entity';
 import { Qux, QuxEntity } from './qux.entity';
 import { Corge, CorgeEntity } from './corge.entity';
@@ -50,13 +57,10 @@ export class FooEntity extends Model {
   @JoinColumn({ name: 'facility_entity_id' })
   public corges: CorgeEntity[];
 
-
   @ManyToOne(() => BarEntity, (bar) => bar.foos)
   public bar: BarEntity;
 
-  static create(
-    foo: CreateFoo,
-  ): FooEntity {
+  static create(foo: CreateFoo): FooEntity {
     const entity = new FooEntity();
 
     entity.isDeleted = false;
@@ -86,14 +90,14 @@ export class FooEntity extends Model {
       name: this.name,
       qux: this.qux && this.qux.toJSON(),
       corges:
-      this.corges &&
-      this.corges.length > 0 &&
-      this.corges
-        .filter((corge) => !corge.isDeleted)
-        .sort((a, b) => a.name.localeCompare(b.name))
-        .map((corge) => {
-          return corge.toJSON();
-        }),
+        this.corges &&
+        this.corges.length > 0 &&
+        this.corges
+          .filter((corge) => !corge.isDeleted)
+          .sort((a, b) => a.name.localeCompare(b.name))
+          .map((corge) => {
+            return corge.toJSON();
+          }),
       isDeleted: this.isDeleted,
     };
   }
