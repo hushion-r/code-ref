@@ -179,7 +179,9 @@ const dispatch = useAppDispatch();
 ```
 
 useAppSelector
-const currentUser: UserData | undefined = useAppSelector(selectUserData);
+
+`const currentUser: UserData | undefined = useAppSelector(selectUserData);`
+
 ```ts
 const current:  | undefined = useAppSelector(select);
 ```
