@@ -174,7 +174,15 @@ const X_NAME_KEY = 'xName';
 
 ### Redux
 useAppDispatch
+```ts
+const dispatch = useAppDispatch();
+```
+
 useAppSelector
+const currentUser: UserData | undefined = useAppSelector(selectUserData);
+```ts
+const current:  | undefined = useAppSelector(select);
+```
 
 ## Backend
 
