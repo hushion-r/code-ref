@@ -230,7 +230,7 @@ INSERT INTO [master].[dbo].[user_entity] ([first_name], [last_name]) VALUES ('Ra
 2. Scripts > deploy.sh
 3. Uncomment `az acr build --registry containername --image portalimage .`  
 4. ``` npm run deploy dev ```
-5. Go to (Azure Portal)[https://portal.azure.com/#home]
+5. Go to [Azure Portal](https://portal.azure.com/#home)
 6. Diagnose and Solve Problems
 7. Availability & Performance
 8. Application logs
