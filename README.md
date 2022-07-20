@@ -121,7 +121,7 @@ Replace `obj`
 ```
 
 #### Map
-Replace `obj`. Make sure to add `key={}` with some unique value, usually ``${obj.name} ${i}``
+Replace `obj`. Make sure to add `key={}` with some unique value, usually ``${obj.name} ${i}`` (in backticks, can't make markdown work rn)
 ```js
 .map((obj, index: number) => return {})
 ```
