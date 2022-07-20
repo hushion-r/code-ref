@@ -115,13 +115,15 @@ console.log('\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n');
 ```
 
 #### Filter out `isDeleted`
+Replace `obj`
 ```js
 .filter((obj) => !obj.isDeleted)
 ```
 
 #### Map
+Replace `obj`. Make sure to add `key={}` with some unique value, usually ``${obj.name} ${i}``
 ```js
-.map(() => return {})
+.map((obj, index: number) => return {})
 ```
 
 ### Hooks
