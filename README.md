@@ -116,7 +116,7 @@ console.log('\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n');
 
 #### Filter out `isDeleted`
 ```js
-.sort((a, b) => a.name.localeCompare(b.name))
+.filter((obj) => !obj.isDeleted)
 ```
 
 #### Map
