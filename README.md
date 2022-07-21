@@ -5,6 +5,7 @@
 ### Code not working?
 - [Address already in use](#address-already-in-use)
 - [React Random Things I’ve Gotten Weird](#random-things-ive-gotten-weird)
+- [SQL Random Things I’ve Gotten Weird](#sql-random-things-ive-gotten-weird)
 
 ### Workarounds
 When making new accounts, do email+etc@compozelabs.com, and it will register as diff email but send to main email
@@ -215,6 +216,11 @@ INSERT INTO [master].[dbo].[user_entity] ([first_name], [last_name]) VALUES ('Ra
 ```
 
 ## Database
+
+### SQL Random Things I've Gotten Weird
+
+### Trying to get entity from join column that have just dropped
+Refresh server
 
 ### Add SQL Server Connection
 Open `database.config.ts`
