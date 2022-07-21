@@ -214,6 +214,11 @@ Can use `like` instead of `=`
 INSERT INTO [master].[dbo].[user_entity] ([first_name], [last_name]) VALUES ('Rae', 'Hushion')
 ```
 
+## Database
+
+### Add SQL Server Connection
+Open `database.config.ts`
+
 ## Deploy
 
 ### Deploy to TestFlight
