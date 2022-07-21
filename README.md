@@ -219,7 +219,7 @@ INSERT INTO [master].[dbo].[user_entity] ([first_name], [last_name]) VALUES ('Ra
 
 ### SQL Random Things I've Gotten Weird
 
-### Trying to get entity from join column that have just dropped
+#### Trying to get entity from join column that have just dropped
 Refresh server
 
 ### Add SQL Server Connection
