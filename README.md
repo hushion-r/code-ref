@@ -225,6 +225,9 @@ Refresh server
 #### Test working but API calls not?
 Make sure you have the value in relations in the service file
 
+#### Getting HTML back instead of an object?
+Try rebuilding and checking that you're cealling the right URL.
+
 ### Add SQL Server Connection
 Open `database.config.ts`
 
