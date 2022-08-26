@@ -205,14 +205,14 @@ where: { id: Id, isDeleted: true }
 
 ## SQL
 ```sql
-UPDATE [master].[dbo].[user_entity] SET is_admin = 1 WHERE email = 'rae+admin@compozelabs.com'
+UPDATE [master].[dbo].[user_entity] SET is_admin = 1 WHERE email = 'rae@compozelabs.com'
 ```
 ```sql
 UPDATE [master].[dbo].[user_entity] SET [eula] = 0
 ```
 Can use `like` instead of `=`
 ```sql 
-INSERT INTO [master].[dbo].[user_entity] ([first_name], [last_name]) VALUES ('Rae', 'Hushion')
+INSERT INTO [master].[dbo].[user_entity] ([first_name], [last_name]) VALUES ('Rae', 'H')
 ```
 
 ## Database
@@ -227,6 +227,9 @@ Make sure you have the value in relations in the service file
 
 #### Getting HTML back instead of an object?
 Try rebuilding and checking that you're cealling the right URL.
+
+#### Can't reach the request URL? {message": "Not Found"} ?
+Check imports for controllers.
 
 ### Add SQL Server Connection
 Open `database.config.ts`
