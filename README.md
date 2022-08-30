@@ -231,6 +231,9 @@ Try rebuilding and checking that you're cealling the right URL.
 #### Can't reach the request URL? {message": "Not Found"} ?
 Check imports for controllers.
 
+#### Creating a new thing removes the relations of the old thing to the parent?
+Check relations/get. Check eager.
+
 ### Add SQL Server Connection
 Open `database.config.ts`
 
