@@ -237,6 +237,9 @@ Check relations/get. Check eager.
 #### Site stopped working? But works on local?
 Make sure you drop changed tables from the environment then restart from the portal.
 
+### Can do some saves but not others?
+Check allowed columnn length
+
 ### Add SQL Server Connection
 Open `database.config.ts`
 
