@@ -234,6 +234,9 @@ Check imports for controllers.
 #### Creating a new thing removes the relations of the old thing to the parent?
 Check relations/get. Check eager.
 
+#### Site stopped working? But works on local?
+Make sure you drop changed tables from the environment then restart from the portal.
+
 ### Add SQL Server Connection
 Open `database.config.ts`
 
