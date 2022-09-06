@@ -102,6 +102,7 @@ docker build . -t name:tag
 - Make sure backend imports are correct
 - “varchar” vs “int”
 - `await`
+- State not changing but console.log running? Check if changing twice
 
 ### Code Tidbits
 
