@@ -213,7 +213,7 @@ UPDATE [master].[dbo].[user_entity] SET [eula] = 0
 ```
 Can use `like` instead of `=`
 ```sql 
-INSERT INTO [master].[dbo].[user_entity] ([first_name], [last_name]) VALUES ('Rae', 'H')
+INSERT INTO [master].[dbo].[user_entity] ([first_name], [last_name], [email], [user_type], [job_title], [phone_number], [eula]) VALUES ('Rae', 'H', 'rae@compozelabs.com', 'admin', 'dev', '555.555.5555', 0)
 ```
 
 ## Database
