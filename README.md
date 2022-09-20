@@ -268,3 +268,8 @@ Open `database.config.ts`
 8. Application logs
 9. Platform logs
 
+
+## Annoying Stuff
+
+### Add Firewall Rule for IP Address
+SQL Server (NOT DATABASE) -> Networking
