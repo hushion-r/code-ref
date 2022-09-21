@@ -273,3 +273,11 @@ Open `database.config.ts`
 
 ### Add Firewall Rule for IP Address
 SQL Server (NOT DATABASE) -> Networking
+
+
+# Good Practice Reference
+
+## PRs
+- Demo
+- Show code and what it does
+- Have other person test
