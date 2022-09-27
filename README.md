@@ -246,8 +246,11 @@ Open `database.config.ts`
 
 ## Docker
 ```docker ps```
+
 ```docker logs [id]```
+
 ```docker volume ls```
+
 ## Deploy
 
 ### Deploy to TestFlight
