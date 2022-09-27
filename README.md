@@ -244,6 +244,10 @@ Check allowed columnn length.
 ### Add SQL Server Connection
 Open `database.config.ts`
 
+## Docker
+```docker ps```
+```docker logs [id]```
+```docker volume ls```
 ## Deploy
 
 ### Deploy to TestFlight
