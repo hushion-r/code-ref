@@ -2,12 +2,16 @@
 2. Install
 	1. 
 ```npm storybook init```
+
 	2. 
+
 ```npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion```
+
 		1. later add icons, fonts
 	3. Check that everything running
 	4.
  ```pnpm install```
+ 
 	   ```pnpm start```
 	5. Create `.nvmrc` file
 	6. 
