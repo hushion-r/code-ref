@@ -48,4 +48,4 @@ npx create-react-app my-app --template redux-typescript
    ```
    9. Add linter settings
    10. Add prehooks
-   11. README instructions
+   11. Update README instructions
