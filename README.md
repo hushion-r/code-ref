@@ -276,6 +276,12 @@ Open `database.config.ts`
 9. Platform logs
 
 
+## Infrastructure
+
+### Azure B2C
+1. Click on user in header.
+2. Switch directory.
+
 ## Annoying Stuff
 
 ### Add Firewall Rule for IP Address
