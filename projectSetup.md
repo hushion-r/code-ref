@@ -49,3 +49,6 @@ npx create-react-app my-app --template redux-typescript
    9. Add linter settings
    10. Add prehooks
    11. Update README instructions
+
+3. App service
+4. Webhooks
