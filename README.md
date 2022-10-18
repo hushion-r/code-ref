@@ -103,6 +103,7 @@ docker build . -t name:tag
 - “varchar” vs “int”
 - `await`
 - State not changing but console.log running? Check if changing twice
+- Weird async stuff with `map`? Replace with `foreach`
 
 ### Code Tidbits
 
