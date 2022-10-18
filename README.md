@@ -190,6 +190,9 @@ useAppSelector
 const current:  | undefined = useAppSelector(select);
 ```
 
+#### Store
+Can use `store.` to access store outside
+
 ## Backend
 
 ### Code Tidbits
