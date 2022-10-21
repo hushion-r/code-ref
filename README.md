@@ -245,6 +245,8 @@ Make sure you drop changed tables from the environment then restart from the por
 #### Can do some saves but not others?
 Check allowed columnn length.
 
+#### Creating new child replaces all other siblings parent relation ID to NULL
+
 ### Add SQL Server Connection
 Open `database.config.ts`
 
