@@ -284,7 +284,7 @@ Open `database.config.ts`
 ### Local Database Testing/Prod Database Migration
 You should have already tested on dev. Release notes should be written.
 1. Create 2nd database called `mysiteiq` (must be same name as prod database). In `database.config.ts` file, set `database: mysiteiq`
-2. On first setup of database, switch to most recent production branch and do `npm run start:all` with `synchronize: true`. This will create the database tables/columns mirroring prod. Do NOT start this database with `synchronize: true` when on master/main branch -- This defeats the purpose of creating a prod db mirror.
+2. On first setup of database, switch to most recent production branch and do `npm run start:all` with `synchronize: true`. This will create the database tables/columns mirroring prod. Do **NOT** start this database with `synchronize: true` when on master/main branch -- This defeats the purpose of creating a prod db mirror.
 3. `git switch master`
 4. In `database.config.ts` file, set `database: mysiteiq` and `synchronize: false` (this makes it so that typeorm will not automatically alter the tables/columns for you).
 5. Compare the `master`/`main` database and the local `mysiteiq` database. Write any SQL commands needed to sync up the `mysiteiq` database with the `master`/`main` database -- put these into a file labelled with the release date.
