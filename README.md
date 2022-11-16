@@ -133,7 +133,7 @@ Replace `obj`. Make sure to add `key={}` with some unique value, usually ``${obj
 Must always be used in root level of functional component
 
 ```tsx
-interface ComponentProps { var: Type; }
+export interface ComponentProps { var: Type; }
 export const Component = ( { var }: ComponentProps ): JSX.Element => { return (<></>)}
  
 export const Component = (): JSX.Element => { return (<></>) }
