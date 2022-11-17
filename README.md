@@ -104,6 +104,7 @@ docker build . -t name:tag
 - `await`
 - State not changing but console.log running? Check if changing twice
 - Weird async stuff with `map`? Replace with `foreach`
+- Function not being called? Make sure there is a `()` at the end
 
 ### Code Tidbits
 
