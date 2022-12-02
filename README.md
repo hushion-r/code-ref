@@ -221,6 +221,10 @@ Can use `like` instead of `=`
 INSERT INTO [master].[dbo].[user_entity] ([first_name], [last_name], [email], [user_type], [job_title], [phone_number], [eula]) VALUES ('Rae', 'H', 'rae@compozelabs.com', 'admin', 'dev', '555.555.5555', 0)
 ```
 
+### Flyway
+- Make sure to have `dbo.x_entity`. Do not have `master.dbo.x_entity`
+- Make sure to have two `_` in you version file. i.e. `V10__projects`
+
 ## Database
 
 ### Backend Random Things I've Gotten Weird
