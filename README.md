@@ -223,7 +223,7 @@ INSERT INTO [master].[dbo].[user_entity] ([first_name], [last_name], [email], [u
 
 ### Flyway
 - Make sure to have `dbo.x_entity`. Do not have `master.dbo.x_entity`
-- Make sure to have two `_` in you version file. i.e. `V10__projects`
+- Make sure to have two `_` in you version file. i.e. `V10__projects.sql`
 
 ## Database
 
