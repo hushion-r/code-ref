@@ -19,8 +19,10 @@ major.minor.patch
 ```sh
 lsof -i tcp:4000
 ```
+
+Stack overflow says not to use `-9`
 ```sh
-kill -9
+kill -9 [PID]
 ```
 
 ### Git
