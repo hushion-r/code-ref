@@ -25,6 +25,12 @@ Stack overflow says not to use `-9`
 kill -9 [PID]
 ```
 
+```
+docker ps
+docker stop [PID]
+docker rm [PID]
+```
+
 ### Git
 
 #### Rebase
