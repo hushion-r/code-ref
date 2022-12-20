@@ -111,6 +111,7 @@ docker build . -t name:tag
 - “varchar” vs “int”
 - `await`
 - State not changing but console.log running? Check if changing twice
+- State not changing? Use function.
 - Weird async stuff with `map`? Replace with `foreach`
 - Function not being called? Make sure there is a `()` at the end
 
@@ -124,6 +125,13 @@ console.log('\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n');
 #### Sort alphabetically
 ```js
 .sort((a, b) => a.name.localeCompare(b.name))
+```
+
+#### Use async not in async function
+```js
+asyncFunction().then(
+  () => nextFunction();
+);
 ```
 
 #### Filter out `isDeleted`
@@ -155,6 +163,11 @@ import { useState } from 'react';
 `const [val, setVal] = useState<type>(initialVal);`
 ```tsx
 const [, set] = useState<>();
+```
+```js
+setVal((currVal) => {
+  return newVal;
+});
 ```
 
 #### useEffect
