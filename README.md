@@ -85,6 +85,11 @@ Import types `@types/packageName`
 npm i --save-dev @types/
 ```
 
+### Playwright
+```bash
+npx playwright codegen http://localhost:3000
+```
+
 ### Storybook
 ```bash
 npm run storybook
