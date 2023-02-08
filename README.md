@@ -151,6 +151,8 @@ Replace `obj`. Make sure to add `key={}` with some unique value, usually ``${obj
 .map((obj, index: number) => return {})
 ```
 
+Should always check if value you're trying to map over is undefined. Don't need to check length.
+
 ### Hooks
 Must always be used in root level of functional component
 
