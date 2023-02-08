@@ -116,9 +116,16 @@ docker build . -t name:tag
 - “varchar” vs “int”
 - `await`
 - State not changing but console.log running? Check if changing twice
-- State not changing? Use function.
+- State not changing? Use function. (See [#useState](#useState))
 - Weird async stuff with `map`? Replace with `foreach`
 - Function not being called? Make sure there is a `()` at the end
+- Import not working?
+  - Blow away/reinstall node modules
+  - Kill/restart server
+  - Did you ues correct of pnpm/npm?
+  - Quit/restart VSCode
+  - Check node/npm version
+  - Change version of package in package.json to not have ^ in front of it
 
 ### Code Tidbits
 
