@@ -122,7 +122,7 @@ docker build . -t name:tag
 - Import not working?
   - Blow away/reinstall node modules
   - Kill/restart server
-  - Did you ues correct of pnpm/npm?
+  - Did you use correct of pnpm/npm?
   - Quit/restart VSCode
   - Check node/npm version
   - Change version of package in package.json to not have ^ in front of it
