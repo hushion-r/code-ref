@@ -361,3 +361,19 @@ SQL Server (NOT DATABASE) -> Networking
 - Demo
 - Show code and what it does
 - Have other person test
+
+## Estimations
+Remember
+- Create
+  - Validation
+  - Success/fail toast
+- Edit
+  - Validation
+  - Success/fail toast
+- Delete
+  - Confirm modal 
+- (Archive)
+- Page update
+- Testing
+  - Front-end
+  - Back-end
