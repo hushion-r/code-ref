@@ -37,6 +37,22 @@ docker rm [PID]
 ```sh
 git pull -r
 ```
+```sh
+git fetch origin
+```
+```sh
+git rebase origin/master
+```
+```sh
+git add FILE
+```
+```sh
+git rebase --continue
+```
+(or `skip`)
+```sh
+git push origin HEAD --force
+```
 
 #### Branch
 ```sh
