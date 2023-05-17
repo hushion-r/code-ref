@@ -37,6 +37,8 @@ docker rm [PID]
 ```sh
 git pull -r
 ```
+
+#### Steps ([source - Verdant Fox!](https://verdantfox.com/blog/view/how-to-git-rebase-mainmaster-onto-your-feature-branch-even-with-merge-conflicts))
 ```sh
 git fetch origin
 ```
