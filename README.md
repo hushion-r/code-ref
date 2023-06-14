@@ -150,6 +150,7 @@ fork-ts-checker-webpack-plugin error in undefined(undefined,undefined):
 Maximum call stack size exceeded  TSINTERNAL
 ```
 Do you have an optional array on an interface? Try making it required and adding `| undefined`.
+- Dropdown not working?? Put `fireEvent.change` and `fireEvent.click` into `waitFor`. [Reference](https://stackoverflow.com/questions/57676723/test-drop-down-with-react-testing-library)
 
 ### Code Tidbits
 
