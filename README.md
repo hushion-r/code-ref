@@ -144,7 +144,8 @@ docker build . -t name:tag
   - Quit/restart VSCode
   - Check node/npm version
   - Change version of package in package.json to not have ^ in front of it
-- ```
+-
+```
 undefined
 fork-ts-checker-webpack-plugin error in undefined(undefined,undefined):
 Maximum call stack size exceeded  TSINTERNAL
