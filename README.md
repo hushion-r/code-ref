@@ -192,7 +192,8 @@ Must always be used in root level of functional component
 ```tsx
 export interface ComponentProps { var: Type; }
 export const Component = ( { var }: ComponentProps ): JSX.Element => { return (<></>)}
- 
+```
+```tsx
 export const Component = (): JSX.Element => { return (<></>) }
 ```
 
