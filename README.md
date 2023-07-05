@@ -257,6 +257,10 @@ const current:  | undefined = useAppSelector(select);
 #### Store
 Can use `store.` to access store outside
 
+### Tests
+- `getBy*` vs `queryBy*`
+- Wrap `act` in most
+
 ## Backend
 
 ### Code Tidbits
