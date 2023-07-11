@@ -152,6 +152,8 @@ Maximum call stack size exceeded  TSINTERNAL
 ```
 Do you have an optional array on an interface? Try making it required and adding `| undefined`.
 - Dropdown not working?? Put `fireEvent.change` and `fireEvent.click` into `waitFor`. [Reference](https://stackoverflow.com/questions/57676723/test-drop-down-with-react-testing-library)
+- Not able to run properly? But others are? Reference dockerfile run instructions
+"For future and whenever I run in to issues like these, I just reference the Dockerfile RUN steps for the install since that is really the source of truth for the versions to be used. I threw in the nvm use since once things are installed properly nvm use should then make sure we are using the correctly installed items"
 
 ### Code Tidbits
 
