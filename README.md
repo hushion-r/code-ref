@@ -84,6 +84,20 @@ git branch -a
 git remote prune origin
 ```
 
+#### Set Credentials
+```
+git config --global user.name hushion-r
+```                                      
+```
+git config --global user.email hushion_r@zoho.com
+```
+```
+git config --global github.user hushion-r
+```
+```
+git config --global github.token
+```
+
 ### React
 
 #### App
