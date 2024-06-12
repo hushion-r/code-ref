@@ -6,6 +6,7 @@
 - [Address already in use](#address-already-in-use)
 - [React Random Things I’ve Gotten Weird](#random-things-ive-gotten-weird)
 - [Backend Random Things I’ve Gotten Weird](#backend-random-things-ive-gotten-weird)
+- [KMP Random Things I’ve Gotten Weird](#kmp-random-things-ive-gotten-weird)
 
 ### Workarounds
 When making new accounts, do email+etc@compozelabs.com, and it will register as diff email but send to main email
@@ -334,8 +335,23 @@ Check allowed columnn length.
 
 #### Creating new child replaces all other siblings parent relation ID to NULL
 
+#### Randomly not working?
+Check if Docker is running.
+
 ### Add SQL Server Connection
 Open `database.config.ts`
+
+## Kotlin MultiPlatform (KMP)
+
+### KMP Random Things I've Gotten Weird
+
+#### Something not importing?
+Check if you're in the correct device folder (common vs android vs desktop vs ios).
+
+#### Parameters not working?
+Check that the import is actually the one you want. 
+
+
 
 ## Docker
 ```docker ps```
